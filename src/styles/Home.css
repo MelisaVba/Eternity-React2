@@ -1,0 +1,177 @@
+/* MAIN */
+
+
+/* CAROUSEL */
+
+#carouselExampleCaptions .carousel{
+  height: 600px;
+}
+
+.carousel-inner .d-block{
+  background-position: center;
+}
+
+.carousel-item{
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* USER DESIGN */
+
+#imgUserDesign{
+  width: 13%; 
+  height: 22%;
+  position: fixed;
+  z-index: 10000;
+  margin-left: 88%;
+  margin-top: 29%;
+}
+
+
+/*NOSOTROS */
+
+
+#nosotros h1{
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-top: 145px;   
+  font-size: 2.5rem;   /*VER ACA */
+  line-height: 1.2;   /*VER ACA */
+  text-align: center;
+}
+
+#nosotros p{
+  margin-top: 15px;
+  padding:0 5% 0 5%;
+}
+
+
+
+/* CARDS */
+
+.cards-section  {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%; 
+  width: 100%;
+}
+
+.cards-section article {
+  background-color: var(--color-quinary);
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  margin: 0px;
+  margin-bottom: 4%;
+  position: relative;
+  width: 400px;
+  box-shadow: 0px 4px 10px -5px black;
+}
+
+    /* PARTE DE ARRIBA*/
+
+#backgroundRobots {
+  background-image: url("../../public/img/backgroundRobot1.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 350px;
+}
+
+/*#robot1 {
+  background-image: url("../../public/img/logoRobots.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 350px;
+}*/
+
+.logoRoot {
+  left: 20px;
+  height: 70px;
+  position: relative;
+  top: 18px;
+}
+
+.imgRadius {
+  border-radius: 50%; 
+  width: 175px;
+  height: 175px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 30%;
+}
+
+.sombraContainer {
+  box-shadow: 0px 4px 10px -5px black;
+}
+
+.radiusImage {
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden; 
+}
+
+    /* PARTE DE ABAJO */
+
+article h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 12% 5% 5%;
+  text-align: center;
+}
+
+article div p {
+  padding: 3%;
+}
+
+article button {
+  background: #00669f;
+  background-color: #00669f;
+  border: 0;
+  box-shadow: 0 0 25px rgb(150, 203, 247);
+  color: var(--color-quinary);
+	display: inline-block;
+  font-size: 13px;
+  margin-left: 32%;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  top: 85%;
+}
+
+article button:hover {
+  box-shadow: 0 0 5px rgb(59, 160, 243), 0 0 10px rgb(59, 160, 243),
+    0 0 20px rgb(59, 160, 243), 0 0 50px rgb(59, 160, 243);
+}
+
+
+
+/*SOCIOS */
+
+.socios{
+  color: var(--color-primary);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.socios h2{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+
+.socios img{
+  display: inline-block;
+  height: 100px;
+  width: 160px;
+}
+
+.partner-item {
+  display: inline-block; 
+  margin: 0 10px; 
+}

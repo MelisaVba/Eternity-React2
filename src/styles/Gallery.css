@@ -1,0 +1,48 @@
+/* MAIN */
+
+/*VIDEO */
+
+.videoppal{
+  background-color: black;
+  display: flex;
+}
+
+.video{
+  justify-content: space-around;
+  height: 600px;
+  margin-left: 70px;
+  position: relative;
+  width: 90%;
+}
+
+
+
+/*GALERIA DE IMAGENES */
+
+.gallery .title{
+  margin: 60px 30px 20px 30px;
+  text-align: center;
+}
+
+article{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+  width: 100%;
+}
+
+.gallery article img{
+  border: 4px double #a82aec;
+  box-shadow: 0px 4px 10px -5px black;
+  height: 300px;
+  margin: 15px 1px; 
+  transition: 0.5s;
+  width: 400px;
+
+}
+
+.gallery article img:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}

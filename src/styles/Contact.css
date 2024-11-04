@@ -1,0 +1,72 @@
+/* MAIN FORMULARIO*/
+
+/* FORMULARIO 1 */
+
+main {
+  display: flex;
+}
+
+.datos {
+  background-image: url(../../public/img/backgroundContacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 20px -5px black;
+  border-radius: 20px;
+  color: var(--color-quinary);
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  height: 700px;
+  justify-content: space-around;
+  margin: 50px auto;
+  width: 80%;
+}
+
+section article {
+  display: inline-block;
+  margin: 20px;
+  width: 400px;
+}
+
+article h4 {
+  margin-bottom: 20px;
+}
+
+.buttons1 {
+  border: 0;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+  top: 95%;
+  width: 100%;
+}
+
+.buttons1 button {
+  background-color: #00669f;
+  box-shadow: 0 0 25px rgb(150, 203, 247);
+  border: 0;
+  color: var(--color-quinary);
+  font-size: 13px;
+  margin-right: 60px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  box-shadow: 0 0 5px rgb(59, 160, 243), 0 0 10px rgb(59, 160, 243),
+    0 0 20px rgb(59, 160, 243), 0 0 50px rgb(59, 160, 243);
+}
+
+label,
+select,
+input {
+  display: block;
+  margin-top: 2px;
+  padding: 1px;
+}
+
+textarea {
+  width: 100%;
+}
